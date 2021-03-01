@@ -1,2 +1,4 @@
 .env
 cacert.pem
+.DS_Store
+gradingsheets
