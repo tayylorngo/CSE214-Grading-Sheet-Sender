@@ -36,20 +36,20 @@
           <br />
 
 3. Download & Setup ⬇️
-    * Download the **sendgrades.py** and **studentdata.py**
-    files and put them in a new directory.
+    * Download project in .zip and extract the 
+    files in a new directory.
     * Create a **.env** file in the same directory as your **sendgrades.py** and **studentdata.py**
     * In the **.env** file create two variables: **EMAIL_ADDRESS** and **PASSWORD**
     * Set your email and password as such:   
       * ```EMAIL_ADDRESS = "youremail@gmail.com"```
       * ```PASSWORD = "email password" or "app password generated"``` (refer to step 2)
-    * Create a new folder/directory named **gradingsheets** (This is where your .xlsx files will be stored)
+    * Create a new folder/directory named **gradingsheets** in the same directory as
+      **sendgrades.py** and **studentdata.py** (This is where your .xlsx files will be stored)
     * In the **studentdata.py** put in all student data as a Python dictionary (you will only need to do this once I swear)
     * Follow this format:
       <br/>
-      <br/>
         ![setup1](https://i.gyazo.com/f3c27c8470f15220bbedf5b040c4b2de.png)
-    * Install the following libraries (using pip):
+    * Install the following libraries (you can use pip):
         * ```pip install python-dotenv```
         * ```pip install pylightxl```
           <br/>
