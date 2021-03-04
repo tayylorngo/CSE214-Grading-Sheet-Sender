@@ -39,6 +39,7 @@ def send_email(from_address, to_address, subject, filename):
         smtp.login(EMAIL_ADDRESS, PASSWORD)
         smtp.send_message(msg)
         smtp.close()
+    print("Email sent to: " + to_address)
 
 
 def main():
@@ -50,7 +51,6 @@ def main():
             name = name[6:len(name)]
             if students.get(name) is not None:
                 send_email(EMAIL_ADDRESS, students.get(name), SUBJECT, "gradingsheets/" + filename)
-                print("Email sent to: " + students.get(name))
             else:
                 failed_to_send.append(name)
     print()

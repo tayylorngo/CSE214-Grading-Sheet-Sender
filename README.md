@@ -71,5 +71,20 @@
       ![output1](https://i.gyazo.com/51e2bbc1f5fb1dca43650f832091bd67.png)
        * As you can see the successful emails sent have the full email posted while the non-successful ones 
          usually have some error with the naming.
+         
+## How It Works
 
+* The grading sheets for CSE 214 are the same with the name section
+being in cell G1.
+* The formatting of the name is usually "Name: firstname lastname"
+* This program reads the name from that cell and sends an email that
+corresponds to that name in the student data table.
+* If no name corresponds, no email is sent. 
 
+## Testing
+- I plan on testing this project for CSE 214 Homework #2 whenever the grading sheets will come out. 
+
+## Possible Errors
+1. If the grading sheet is formatted differently.
+2. If the name does not match in **studentdata.py**
+then it will not send an email.
