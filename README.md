@@ -82,7 +82,7 @@ corresponds to that name in the student data table.
 * If no name corresponds, no email is sent. 
 
 ## Testing
-- I plan on testing this project for CSE 214 Homework #2 whenever the grading sheets will come out. 
+- Tested with Homework 2 - works exactly as expected. 
 
 ## Possible Errors
 1. If the grading sheet is formatted differently.
